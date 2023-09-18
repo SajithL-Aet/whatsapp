@@ -1,0 +1,70 @@
+.Sidebar {
+    width: 300px;
+    height: 100%;
+    background-color: #128c7e;
+    color: #fff;
+    padding: 20px;
+}
+
+.SidebarHeader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.SidebarHeader h1 {
+    font-size: 24px;
+    color: white;
+}
+
+.SidebarChats {
+    overflow-y: auto;
+}
+
+.Chat {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.Chat img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.ChatInfo {
+    flex: 1;
+}
+
+.ChatInfo h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.ChatInfo p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.Logout {
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+}
+
+.Logout button {
+    background-color: #ff3d00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.Logout button:hover {
+    background-color: #ff5722;
+}
